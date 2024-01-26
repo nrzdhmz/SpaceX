@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="icon" href="./assets/img/spacex-favicon.ico">
+  <title>SpaceX-replica</title>
+</head>
+<body>
+  <header>
+    <div class="top-bar-container">
+      <div class="top-bar">
+
+        <!-- LOGO -->
+
+        <svg class="logo" version="1.1" x="0px" y="0px" viewbox="0 0 400 50" aria-hidden="true">
+          <title>SpaceX Logo</title>
+        
+          <g class="letter_s">
+            <path fill="#fff" class="fill-white" d="M37.5,30.5H10.9v-6.6h34.3c-0.9-2.8-3.8-5.4-8.9-5.4H11.4c-5.7,0-9,2.1-9,6.7v4.9c0,4,3.4,6.3,8.4,6.3h26.9v7H1.5
+              c0.9,3.8,3.8,5.8,9,5.8h27.1c5.7,0,8.5-2.2,8.5-6.9v-4.9C46.1,33.1,42.8,30.8,37.5,30.5z"/>
+          </g>
+        
+          <g class="letter_p">
+            <path fill="#fff" class="fill-white" d="M91.8,18.6H59v30.7h9.3V37.5h24.2c6.7,0,10.4-2.3,10.4-7.7v-3.4C102.8,21.4,98.6,18.6,91.8,18.6z M94.8,28.4
+              c0,2.2-0.4,3.4-4,3.4H68.3l0.1-8h22c4,0,4.5,1.2,4.5,3.3V28.4z"/>
+          </g>
+        
+          <g class="letter_a">
+            <polygon fill="#fff" class="fill-white" points="129.9,17.3 124.3,24.2 133.8,37.3 114,37.3 109.1,42.5 137.7,42.5 142.6,49.3 153.6,49.3"/>
+          </g>
+        
+          <g class="letter_c">
+            <path fill="#fff" class="fill-white" d="M171.4,23.9h34.8c-0.9-3.6-4.4-5.4-9.4-5.4h-26c-4.5,0-8.8,1.8-8.8,6.7v17.2c0,4.9,4.3,6.7,8.8,6.7h26.3
+              c6,0,8.1-1.7,9.1-5.8h-34.8V23.9z"/>
+          </g>
+        
+          <g class="letter_e">
+            <polygon fill="#fff" class="fill-white" points="228.3,43.5 228.3,34.1 247,34.1 247,28.9 218.9,28.9 218.9,49.3 260.4,49.3 260.4,43.5"/>
+            <rect fill="#fff" class="fill-white" x="219.9" y="18.6" width="41.9" height="5.4"/>
+          </g>
+        
+          <g class="letter_x">
+            <path fill="#fff" class="fill-white" d="M287.6,18.6H273l17.2,12.6c2.5-1.7,5.4-3.5,8-5L287.6,18.6z"/>
+            <path fill="#fff" class="fill-white" d="M308.8,34.3c-2.5,1.7-5,3.6-7.4,5.4l13,9.5h14.7L308.8,34.3z"/>
+          </g>
+        
+          <g class="letter_swoosh">
+            <path fill="#fff" class="fill-white" d="M399,0.7c-80,4.6-117,38.8-125.3,46.9l-1.7,1.6h14.8C326.8,9.1,384.3,2,399,0.7L399,0.7z"/>
+          </g>
+        
+        </svg>
+        
+        <!-- NAVBAR -->
+
+        <ul class="nav-link">
+          <li><a href="#">FALCON 9</a></li>
+          <li><a href="#">FALCON HEAVY</a></li>
+          <li><a href="#">DRAGON</a></li>
+          <li><a href="#">STARSHIP</a></li>
+          <li><a href="#">HUMAN SPACEFLIGHT</a></li>
+          <li><a href="#">RIDESHARE</a></li>
+          <li><a href="#">STARSHIELD</a></li>
+          <li><a href="#">STARLINK</a></li>
+          <li class="shop"><a href="#">SHOP</a></li>
+          <li  onclick=toggleSidebar()>
+            <div class="bars" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="sidebar-container">
+          <ul class="sidebar">
+            <li><a href="#">FALCON 9</a></li>
+            <li><a href="#">FALCON HEAVY</a></li>
+            <li><a href="#">DRAGON</a></li>
+            <li><a href="#">STARSHIP</a></li>
+            <li><a href="#">HUMAN SPACEFLIGHT</a></li>
+            <li><a href="#">RIDESHARE</a></li>
+            <li><a href="#">STARSHIELD</a></li>
+            <li><a href="#">STARLINK</a></li>
+            <li><a href="#">MISSION</a></li>
+            <li><a href="#">LAUNCHES</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">UPDATES</a></li>
+            <li><a href="#">SHOP</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main>
+
+    <!-- SECTION FIRST -->
+
+    <section>
+      <div class="hero">
+
+        <!-- BACKGROUND FIRST -->
+
+        <div class="bg-img-first-container">
+          <img class="bg-img-first" src="/assets/img/background-1.jpg" alt="a rocket picture">
+        </div>
+
+        <!-- TEXT FIRST PAGE -->
+        
+        <div class="text-first-hero">
+          <h2 data-aos="fade-up">CURRENT MISSION</h2>
+          <h1 data-aos="fade-up">AX-3 MISSION</h1>
+          <button data-aos="fade-up">REWATCH</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SECOND -->
+
+    <section>
+      <div class="hero">
+
+        <!-- BACKGROUND SECOND -->
+
+        <div class="bg-img-first-container">
+          <img class="bg-img-first" src="/assets/img/background-5.jpg" alt="a rocket picture">
+        </div>
+
+        <!-- TEXT FIRST PAGE -->
+
+        <div class="text-first-hero second">
+          <h2 data-aos="fade-up">RECENT LAUNCH</h2>
+          <h1 data-aos="fade-up">STARLINK MISSION</h1>
+          <button data-aos="fade-up">WATCH</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="hero">
+
+        <!-- BACKGROUND SECOND -->
+
+        <div class="bg-img-first-container">
+          <img  class="bg-img-first" src="/assets/img/background-3.jpg" alt="a rocket picture">
+        </div>
+
+        <!-- TEXT FIRST PAGE -->
+
+        <div class="text-first-hero third">
+          <h2 data-aos="fade-up">RECENT LAUNCH</h2>
+          <h1 data-aos="fade-up">STARLINK MISSION</h1>
+          <button data-aos="fade-up">REWATCH</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="hero">
+
+        <!-- BACKGROUND SECOND -->
+
+        <div class="bg-img-first-container">
+          <img class="bg-img-first" src="/assets/img/background-4.jpg" alt="a rocket picture">
+        </div>
+
+        <!-- TEXT FIRST PAGE -->
+
+        <div class="text-first-hero fourth">
+          <h2 data-aos="fade-up">RECENT LAUNCH</h2>
+          <h1 data-aos="fade-up">STARSHIP'S SECOND<br>FLIGHT TEST</h1>
+          <button data-aos="fade-up">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="company">SPACEX © 2024</div>
+      <div class="privacy">PRIVACY POLICY</div>
+      <div class="suppliers">SUPPLIERS</div>
+    </div>
+
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+
+
+      AOS.init();
+      // 
+
+
+      let sidebarVisible = false;
+
+      function toggleSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+
+        if (sidebarVisible) {
+          hideSidebar();
+        } else {
+          showSidebar();
+        }
+      }
+
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+        sidebarVisible = true;
+      }
+
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+        sidebarVisible = false;
+      }
+
+      // 
+
+      window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        const scrollPosition = window.scrollY;
+    
+        if (scrollPosition >= window.innerHeight) {
+          header.classList.add('header-black');
+        } else {
+          header.classList.remove('header-black');
+        }
+      });
+    </script>
+</body>
+</html>
